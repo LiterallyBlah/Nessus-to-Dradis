@@ -53,4 +53,4 @@ Make sure to change the details in the config file:
 I've included an extra script called ness.py, which can list all scans within a nessus instance and the associated ID.
 `python3 ness.py`
 
-ness.py uses the same config file to grab the details of the nessus server(s). It supports multiple servers and will prompt for you to pick one so it can list the scans.
+ness.py uses the same config file to grab the details of the nessus server(s). It supports multiple servers and will prompt for you to pick one so it can list the scans. You can also download the scan using this script.
