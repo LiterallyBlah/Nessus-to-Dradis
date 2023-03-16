@@ -6,12 +6,12 @@
       "password": "<password>",
       "scan_project_map": [
         {
-	        "client": "Test 1",
+	  "client": "Test 1",
           "scan_id": "8",
           "project_id": "15"
         },
         {
-	        "client": "Test 2",
+	  "client": "Test 2",
           "scan_id": "10",
           "project_id": "15"
         }
@@ -23,15 +23,15 @@
       "password": "<password>",
       "scan_project_map": [
         {
-	        "client": "Test 3",
+	  "client": "Test 3",
           "scan_id": "178",
           "project_id": "15"
         },
       	{
-	        "client": "Test 4",
-	        "scan_id": "181",
-	        "project_id": "15"
-	      }
+	  "client": "Test 4",
+	  "scan_id": "181",
+	  "project_id": "15"
+	}
       ]
     }
   ],
