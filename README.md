@@ -65,4 +65,4 @@ ness.py uses the same config file to grab the details of the nessus server(s). I
 `python3 main.py`
 
 # Notes
-I can see many ways to make this script more efficient, but I can't be bothered to do them. I'll optimise this sometime in the future.
+I can see many ways to make this script more efficient, but I can't be bothered to implement them. I'll optimise this sometime in the future.
