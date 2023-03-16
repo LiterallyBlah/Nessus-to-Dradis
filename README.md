@@ -1,6 +1,10 @@
 # Nessus-to-Dradis
 This is a script that uses a config file to list scans and their associated projects in dradis. The main.py script when run will download a specified scan and upload it to the associated project in Dradis. This is mainly for people who deal with a lot of scans that run frequently and are managed through Dradis.
 
+# Prerequisites
+You must have python3 installed in order to use this script. Once installed, you will then need to install the necessary libraries via requirements.txt:
+`python3 -m pip install -r requirements.txt`
+
 # Configuration
 The config file may look a little strange, and this is because it supports multiple nessus instances (and only a single dradis instance). 
 
