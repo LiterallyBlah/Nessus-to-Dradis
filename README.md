@@ -58,3 +58,6 @@ I've included an extra script called ness.py, which can list all scans within a 
 `python3 ness.py`
 
 ness.py uses the same config file to grab the details of the nessus server(s). It supports multiple servers and will prompt for you to pick one so it can list the scans. You can also download the scan using this script.
+
+# Running the script
+`python3 main.py`
