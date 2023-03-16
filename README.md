@@ -9,7 +9,8 @@ You must have python3 installed in order to use this script. Once installed, you
 The config file may look a little strange, and this is because it supports multiple nessus instances (and only a single dradis instance). 
 
 Make sure to change the details in the config file:
-```{
+```
+{
   "nessus_instances": [
     {
       "base_url": "https://<url>:8834",
@@ -51,7 +52,8 @@ Make sure to change the details in the config file:
     "username": "<username>",
     "password": "<password>"
   }
-}```
+}
+```
 
 # Using ness.py
 I've included an extra script called ness.py, which can list all scans within a nessus instance and the associated ID.
