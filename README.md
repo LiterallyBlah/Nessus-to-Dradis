@@ -2,6 +2,8 @@
 This is a script that uses a config file to list scans and their associated projects in dradis. The main.py script when run will download a specified scan and upload it to the associated project in Dradis. This is mainly for people who deal with a lot of scans that run frequently and are managed through Dradis.
 
 # Configuration
+The config file may look a little strange, and this is because it supports multiple nessus instances (and only a single dradis instance). 
+
 Make sure to change the details in the config file:
 ```{
   "nessus_instances": [
@@ -46,3 +48,7 @@ Make sure to change the details in the config file:
     "password": "<password>"
   }
 }```
+
+# Using ness.py
+I've included an extra script called ness.py, which can list all scans within a nessus instance and the associated ID.
+`python3 ness.py`
