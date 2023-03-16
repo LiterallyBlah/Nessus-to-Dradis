@@ -3,7 +3,7 @@ This is a script that uses a config file to list scans and their associated proj
 
 # Configuration
 Make sure to change the details in the config file:
-`{
+```{
   "nessus_instances": [
     {
       "base_url": "https://<url>:8834",
@@ -45,4 +45,4 @@ Make sure to change the details in the config file:
     "username": "<username>",
     "password": "<password>"
   }
-}`
+}```
